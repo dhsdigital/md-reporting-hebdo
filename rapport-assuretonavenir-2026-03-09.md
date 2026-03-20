@@ -3,8 +3,7 @@
 > **Période** : 09/03/26 au 15/03/26 (en comparaison avec la semaine précédente)
 > 
 > 
-> 
-> **Compte :** Assuretonavenir
+> **Compte :** Assuretonavenir 
 > 
 > **KPIS cible global :** 
 > 
@@ -13,7 +12,6 @@
 > **KPIS cible Meta :** 
 > 
 > - ROAS :
-> 
 > - CPA : ≤ 36€
 > 
 > **Status :** 🟢 Performance dans les objectifs
@@ -37,138 +35,96 @@
 
 ### **PERFORMANCE GLOBALE**
 
-Le compte Assuretonavenir affiche un CPA de **4,82€** sur la semaine du 9 au 15 mars 2026, nettement en dessous de l'objectif cible de 36€. L'ensemble des métriques de volume ont cependant reculé significativement par rapport à S-1 : le volume d'achats a chuté de 42,39%, le chiffre d'affaires de 42,41%, et le ROAS est passé de 29,28 à 20,76. Ce recul s'explique par la combinaison d'une réduction du budget déployé (-18,79%), d'un CPM en hausse (+13,69%) et d'un CTR en baisse (-10,14%).
+Le compte Assuretonavenir affiche un CPA de **4,82€** cette semaine, très en dessous de la cible de 36€, ce qui place le compte dans les objectifs. La semaine est cependant marquée par un recul global des volumes : le budget a été réduit de -18,79%, entraînant une contraction du nombre d'achats (-42,39%) et du chiffre d'affaires (-42,41%). Le ROAS de 20,76 reste solide mais en recul face aux 29,28 de la semaine précédente.
 
-- **ROAS :** 20,76 vs 29,28 S-1 🔴 **-29,09%**
-
-- **CPA :** 4,82€ vs 3,42€ S-1 ✅ **-86,6% sous la cible de 36€**
+- **ROAS :** 20,76 vs [cible non définie]
+- **CPA :** 4,82€ vs 36€ cible ✅ **86,6% en dessous de l'objectif**
 
 ### **Points Marquants**
 
 ```
+
 🚀 SIGNAUX POSITIFS
-├── CPA dans l'objectif : 4,82€ vs cible 36€ (-86,6% sous l'objectif)
-├── Fréquence en baisse : -15,09% (1,73 vs 2,04 — moins de saturation)
-└── Paiements initiés en hausse : +7,66% (239 vs 222)
+├── CPA largement dans les objectifs : 4,82€ (cible ≤ 36€)
+├── Fréquence en baisse : 1,73 vs 2,04 (-15,20%)
+├── Paiements initiés en hausse : +7,66% (239 vs 222)
+└── Panier moyen stable : 100,10€ (-0,04%)
 
 ⚠️ SIGNAUX D'ALERTE
-├── Chute du volume d'achats : -42,39% (689 vs 1 196)
+├── Baisse volume d'achats : -42,39% (689 vs 1 196)
 ├── Chute du chiffre d'affaires : -42,41% (68 971€ vs 119 764€)
-├── Dégradation du ROAS : -29,09% (20,76 vs 29,28)
-└── Inflation du CPA : +40,97% (4,82€ vs 3,42€)
+├── Dégradation ROAS : -29,10% (20,76 vs 29,28)
+└── Hausse CPM : +13,66% (5,74€ vs 5,05€)
 ```
 
 - 💡 Détails des metrics :
-
     
-
     ### Budget & Médias
-
     
-
     | Métrique | Cette Semaine | Semaine Précédente | Évolution |
-
     | --- | --- | --- | --- |
-
     | Budget Dépensé | 3 321,70€ | 4 090,28€ | 🔴⬇️ -18,79% |
-
     | Impressions | 578 569 | 809 955 | 🔴⬇️ -28,57% |
-
     | Couverture | 334 450 | 397 558 | 🔴⬇️ -15,87% |
-
-    | Fréquence | 1,73 | 2,04 | 🟢⬇️ -15,09% |
-
-    | CTR | 0,77% | 0,86% | 🔴⬇️ -10,14% |
-
-    | CPM | 5,74€ | 5,05€ | 🔴⬆️ +13,69% |
-
-    | CPC | 0,74€ | 0,59€ | 🔴⬆️ +26,51% |
-
+    | Fréquence | 1,73 | 2,04 | 🟢⬇️ -15,20% |
+    | CTR | 0,77% | 0,86% | 🔴⬇️ -10,22% |
+    | CPM | 5,74€ | 5,05€ | 🔴⬆️ +13,66% |
+    | CPC | 0,74€ | 0,59€ | 🔴⬆️ +26,41% |
     
-
     ### Engagement
-
     
-
     | Métrique | Cette Semaine | Semaine Précédente | Évolution |
-
     | --- | --- | --- | --- |
-
     | Clics sur Lien | 4 476 | 6 973 | 🔴⬇️ -35,81% |
-
-    | Vues Page Destination | 3 910 | 5 823 | 🔴⬇️ -32,85% |
-
-    | Vues de Contenu | 4 145 | 6 077 | 🔴⬇️ -31,79% |
-
-    | Ajouts Panier | [N/D] | [N/D] | - |
-
+    | Vues Page Destination | 3 910 | 5 823 | 🔴⬇️ -32,86% |
+    | Vues de Contenu | [donnée non disponible] | [donnée non disponible] | - |
+    | Ajouts Panier | [donnée non disponible] | [donnée non disponible] | - |
     | Paiements Initiés | 239 | 222 | 🟢⬆️ +7,66% |
-
     
-
     ### Conversions
-
     
-
     | Métrique | Cette Semaine | Semaine Précédente | Évolution |
-
     | --- | --- | --- | --- |
-
     | Volume d'Achats | 689 | 1 196 | 🔴⬇️ -42,39% |
-
     | Chiffre d'Affaires | 68 970,94€ | 119 764,11€ | 🔴⬇️ -42,41% |
-
-    | ROAS | 20,76 | 29,28 | 🔴⬇️ -29,09% |
-
-    | CPA | 4,82€ | 3,42€ | 🔴⬆️ +40,97% |
-
+    | ROAS | 20,76 | 29,28 | 🔴⬇️ -29,10% |
+    | CPA | 4,82€ | 3,42€ | 🔴⬆️ +40,94% |
     | Panier Moyen | 100,10€ | 100,14€ | 🔴⬇️ -0,04% |
-
-    | Taux de Conversion | 17,62% | 20,54% | 🔴⬇️ -14,22% |
+    | Taux de Conversion | 17,62% | 20,54% | 🔴⬇️ -14,21% |
 
 ---
 
 ## 2.1 ANALYSE
 
-### **PROBLÈME IDENTIFIÉ : BAISSE DE BUDGET ET PERTE D'EFFICACITÉ**
+### **PROBLÈME IDENTIFIÉ : RÉDUCTION BUDGÉTAIRE AMPLIFIÉE PAR UNE HAUSSE DU CPM**
 
 ```
 📉 CAUSES RACINES
-├── Budget réduit (-18,79% : 3 322€ vs 4 090€)
-├── CPM en hausse (+13,69% — pression concurrentielle aux enchères)
-└── CTR en baisse (-10,14% — signal d'essoufflement créatif)
+├── Budget réduit de -18,79%
+├── Hausse du CPM malgré la baisse des impressions (+13,66%)
+├── CTR en recul (-10,22%) sur un budget déjà contraint
+└── Dispersion des ROAS entre assets (5,63 à 29,65)
 
 💼 IMPACT BUSINESS
-├── Perte de volumétrie : -42,39% de conversions (689 vs 1 196 achats)
-├── Inflation des coûts de diffusion : +13,69% CPM
-└── Chute du CA : -42,41% (68 971€ vs 119 764€) malgré CPA toujours dans l'objectif
+├── Volume d'achats divisé par presque 2 : -42,39%
+├── Chiffre d'affaires en chute : -42,41%
+└── CPA en hausse mais dans les objectifs : 4,82€ (cible ≤ 36€)
 
 🎯 SOLUTION
-└── Analyser les créas dont le CTR faiblit + tester de nouveaux angles pour compenser la pression CPM
+└── Concentrer les dépenses sur les créas à ROAS > 20 et couper les assets < 10
 ```
 
 - 💡 Analyse détaillée
-
     
-
-    À budget de 3 322€ (-18,79% vs 4 090€ en S-1), les impressions chutent de -28,57% (578 569 vs 809 955), soit une baisse plus prononcée que celle du budget seul. Cela s'explique par une hausse du CPM à 5,74€ (+13,69%) qui s'opère malgré une fréquence en baisse à 1,73 (-15,09%) : la saturation des audiences n'est donc pas en cause. La pression concurrentielle sur les enchères est la cause la plus vraisemblable de cette inflation du coût d'impression. La couverture recule de -15,87% (334 450 vs 397 558).
-
+    À budget réduit de -18,79% (3 321,70€ vs 4 090,28€), on génère -28,57% d'impressions et -15,87% de couverture. Le CPM augmente pourtant de +13,66% (5,74€ vs 5,05€), ce qui indique que la contraction budgétaire s'est accompagnée d'une perte d'efficacité médias : Meta diffuse à un coût plus élevé pour toucher moins de monde. La fréquence baisse de -15,20% à 1,73, ce qui écarte la saturation d'audience comme cause directe.
     
-
-    Le CTR (lien) passe de 0,86% à 0,77% (-10,14%), ce qui, combiné à la baisse des impressions, amplifie la chute des clics sur lien : 4 476 vs 6 973 (-35,81%). Les vues de page de destination suivent proportionnellement à -32,85% (3 910 vs 5 823), et les leads générés reculent de -31,79% (4 145 vs 6 077). La baisse du CTR constitue un signal d'essoufflement créatif à surveiller sur les prochaines semaines.
-
+    Le CTR recule de -10,22% (0,77% vs 0,86%), entraînant mécaniquement -35,81% de clics sur lien et -32,86% de vues de page de destination. Cette dégradation du CTR, combinée à la hausse du CPM, suggère une hétérogénéité créative au sein du compte : les assets en phase de test (ROAS de 5,63 à 9,98) pèsent sur la performance moyenne et coûtent plus cher à Meta à diffuser, ce qui explique l'inflation du CPM à budget réduit.
     
-
-    On note une légère hausse des paiements initiés (+7,66% : 239 vs 222), qui indique une meilleure qualification du trafic arrivant sur le site. Cependant, le volume d'achats recule de -42,39% (689 vs 1 196) et le taux de conversion tombe de 20,54% à 17,62% (-14,22%). Ce double signal — paiements initiés en hausse mais achats en forte baisse — peut indiquer une friction dans la phase finale du tunnel de souscription.
-
+    Le funnel bas résiste partiellement : les paiements initiés progressent de +7,66% (239 vs 222) malgré un trafic bien inférieur, ce qui indique que la qualité des visiteurs arrivant sur le site est meilleure. Néanmoins, le volume d'achats chute de -42,39% (689 vs 1 196) faute de volume suffisant en haut de funnel.
     
-
-    Au final, pour 3 322€ dépensés, le chiffre d'affaires généré est de 68 971€ (-42,41% vs 119 764€ en S-1), le ROAS recule à 20,76 (-29,09%) et le CPA monte à 4,82€ (+40,97%). Le CPA reste nettement sous l'objectif de 36€ (-86,6%). La perte d'efficacité est amplifiée par la forte réduction du budget sur la campagne Bidcap 4€ (de 1 010€ à 374€, -62,95%), qui était la plus performante en S-1 avec un ROAS de 35,00.
-
+    Le CPA reste à 4,82€, confortablement en dessous de la cible de 36€, et le panier moyen est quasiment stable à 100,10€ (-0,04%). Le ROAS de 20,76 demeure à un niveau solide malgré la baisse.
     
-
-    **Problème principal :** La combinaison d'une réduction budgétaire globale, d'un CPM en hausse et d'un CTR en recul a provoqué une contraction des volumes plus forte que la seule réduction budgétaire — avec une perte d'efficacité globale particulièrement marquée sur la campagne Bidcap.
-
+    **Problème principal :** La réduction budgétaire a amplifié la perte de volume, et la coexistence d'assets très performants (ROAS 28-29) avec des créas en test faiblement performantes (ROAS 5-10) crée une inefficacité dans la diffusion. Concentrer les budgets sur les formats prouvés rétablirait l'efficacité par CPM.
     
 
 ---
@@ -176,47 +132,13 @@ Le compte Assuretonavenir affiche un CPA de **4,82€** sur la semaine du 9 au 1
 ## 📋 2.2 Performance par campagnes
 
 | **Campagne** | **Dépenses** | **CTR** | **Achats** | **CA** | **ROAS** | **CPA** | **Panier** | **Taux de conv.** |
-
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-| **ACQ TESTING BROAD ATA** | 2 947,63€ (-4,32%) | 0,80% (-11,51%) | 603 (-28,47%) | 60 366€ (-28,51%) | 20,48 | 4,89€ ✅ | 100,11€ (-0,05%) | 17,76% (-9,85%) |
-
-| **ACQ CBO Bidcap 4€** | 374,07€ (-62,95%) | 0,65% (-15,82%) | 86 (-75,64%) | 8 604€ (-75,64%) | 23,00 | 4,35€ ✅ | 100,05€ (-0,03%) | 16,70% (-27,01%) |
+| **[DHS] - [ACQ] - TESTING - BROAD - ATA** | 2 947,63€ (-4,32%) | 0,80% (-11,44%) | 603 (-28,47%) | 60 366,47€ (-28,51%) | 20,48 ✅ | 4,89€ ✅ | 100,11€ (-0,05%) | 17,76% (-9,85%) |
+| **[DHS] - [CONV] - [ACQ] - [CBO] - Bidcap 4€ (only TP)** | 374,07€ (-62,94%) | 0,65% (-15,71%) | 86 (-75,64%) | 8 604,47€ (-75,64%) | 23,00 ✅ | 4,35€ ✅ | 100,05€ (-0,03%) | 16,70% (-27,01%) |
 
 ## Campagnes Hors KPIs Cibles
 
-Aucune campagne hors KPI cible cette semaine. Les deux campagnes actives affichent un CPA bien en dessous de l'objectif de 36€ (4,89€ et 4,35€ respectivement). Si les métriques absolues restent dans l'objectif, les tendances de ROAS (-25,28% et -34,27%) et de volume sur les deux campagnes nécessitent une attention soutenue dans les semaines à venir.
-
-```
-📉 CAUSES RACINES
-├── Budget global réduit (-18,79%)
-├── CPM en hausse (+13,69% — enchères plus compétitives)
-└── CTR en baisse (-10,14% — essoufflement créatif potentiel)
-
-💼 IMPACT BUSINESS
-├── Perte de volumétrie : -42,39% de conversions sur l'ensemble du compte
-├── Inflation des coûts de diffusion : +13,69% CPM
-└── Chute du CA : -42,41% par rapport à S-1
-
-🎯 SOLUTION
-└── Identifier les créas dont le CTR faiblit + introduire de nouveaux angles créatifs
-```
-
-- 💡 Analyse détaillée
-
-    
-
-    La campagne ACQ TESTING BROAD ATA, qui concentre 88,7% du budget (2 948€), a vu son ROAS passer de 27,41 à 20,48 (-25,28%), avec un volume d'achats en baisse de -28,47% (603 vs 843). Le CTR recule de 0,90% à 0,80% (-11,51%), ce qui indique un début d'essoufflement des créas en rotation. La campagne reste dans les objectifs avec un CPA de 4,89€ mais la tendance sur le volume est négative.
-
-    
-
-    La campagne ACQ CBO Bidcap 4€, qui opère avec un plafond d'enchère de 4€, a subi une réduction de budget drastique (-62,95% : 374€ vs 1 010€), ce qui explique en grande partie la chute du volume d'achats de -75,64% (86 vs 353) et du CA de -75,64% (8 604€ vs 35 329€). Le ROAS s'est dégradé de 35,00 à 23,00 (-34,27%). Cette campagne était la plus performante en S-1 ; son sous-financement cette semaine a eu un impact disproportionné sur les résultats globaux du compte.
-
-    
-
-    **Problème principal :** La réduction du budget sur la campagne Bidcap, combinée à une pression CPM plus forte et un CTR en baisse sur la campagne principale, a amplifié la contraction des volumes au-delà de ce que la seule baisse budgétaire aurait produit.
-
-    
+Aucune campagne hors KPIs sur la période. Les deux campagnes actives affichent un CPA largement en dessous de la cible de 36€ : 4,89€ pour la campagne TESTING BROAD et 4,35€ pour la campagne Bidcap.
 
 ---
 
@@ -227,18 +149,11 @@ Aucune campagne hors KPI cible cette semaine. Les deux campagnes actives affiche
 ### **Top Performers - ACQUISITION**
 
 | Nomenclature Visuel | Dépenses | CTR | CPC | CPA | ROAS | CA | Hook Rate | Hold Rate |
-
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-| VIDEO - UGC - Alternance en avance - 17B | 597,10€ | 1,16% | 0,45€ | ~3,38€ | 29,65 | ~17 705€ | [N/D] | [N/D] |
-
-| VIDEO - UGC - Alternance en avance - 17C | 186,07€ | 0,97% | 0,53€ | ~3,50€ | 28,59 | ~5 320€ | [N/D] | [N/D] |
-
-| VIDEO - UGC - Alternance en avance - 17A | 296,09€ | 1,04% | 0,48€ | ~4,15€ | 24,15 | ~7 150€ | [N/D] | [N/D] |
-
-| VIDEO - UGC - Alternance en avance - 17B (CBO) | 369,93€ | 1,07% | 0,38€ | 4,35€ | 23,26 | 8 604€ | [N/D] | [N/D] |
-
-| VIDEO - UGC - Enfer de la recherche - 20A | 711,74€ | 3,42% | 0,22€ | ~5,79€ | 17,29 | ~12 306€ | [N/D] | [N/D] |
+| UGC - Bénéfices - Alternance en avance - 17B (TESTING BROAD) | 597,10€ | 1,16% | 0,73€ | 3,37€ | 29,65 | 17 704,51€ | 4,60% | 33,48% |
+| UGC - Education - Enfer de la recherche - 20A (TESTING BROAD) | 711,74€ | 3,42% | 0,61€ | 5,79€ | 17,29 | 12 306,38€ | 5,80% | 24,61% |
+| UGC - Bénéfices - Alternance en avance - 17B (Bidcap) | 369,93€ | 1,07% | 0,64€ | 4,30€ | 23,26 | 8 604,47€ | 4,21% | 35,00% |
+| UGC - Education - Débute tes recherches - 18A (TESTING BROAD) | 347,50€ | 1,47% | 0,82€ | 4,57€ | 21,88 | 7 604,43€ | 3,39% | 28,01% |
 
 ### **Top Performers - REMARKETING**
 
@@ -252,4 +167,4 @@ Aucune campagne FIDEL active sur la période.
 
 ## 🎯 Conclusion & next steps
 
-Le compte Assuretonavenir clôture la semaine avec un CPA de 4,82€, nettement sous l'objectif de 36€, mais le volume d'achats (-42,39%) et le chiffre d'affaires (-42,41%) affichent une nette contraction par rapport à S-1. Trois facteurs convergents expliquent ce recul : une réduction du budget total déployé (-18,79%), un CPM en hausse de +13,69% liée à une pression d'enchère plus forte, et un CTR en baisse de -10,14% qui signale un potentiel essoufflement créatif. En bas de funnel, les paiements initiés progressent légèrement (+7,66%) mais le taux de conversion tombe à 17,62% (-14,22%), indiquant une friction dans la phase finale de souscription à surveiller. Le concept créatif le plus performant de la semaine est la vidéo UGC "Alternance en avance - 17B" avec un ROAS de 29,65. Actions prioritaires : identifier les créas dont le CTR faiblit et tester de nouveaux angles, analyser la friction observée en bas de funnel (paiements initiés en hausse mais achats en baisse), et surveiller l'évolution de la pression CPM semaine après semaine.
+Le compte Assuretonavenir maintient un CPA de 4,82€ cette semaine, très en deçà de la cible de 36€, confirmant la robustesse du funnel de conversion malgré un contexte de budget réduit. La cause principale de la dégradation des volumes (achats -42,39%, CA -42,41%) est la contraction budgétaire de -18,79% amplifiée par une hausse du CPM de +13,66%, elle-même liée à la coexistence d'assets très performants (ROAS 28-29 pour "Alternance en avance 17B" et "17C") et de créas en test faiblement efficaces (ROAS 5-10). Les paiements initiés en hausse de +7,66% malgré la baisse de trafic signalent une bonne qualification des visites. Actions prioritaires : allouer davantage de budget sur les assets "Alternance en avance 17B" (ROAS 29,65) et "Alternance en avance 17C" (ROAS 28,59), mettre en pause ou réduire les assets dont le ROAS est inférieur à 10 ("Débute tes recherches 18C" à 9,75 et "Débute tes recherches 18B" à 9,98) pour faire baisser le CPM moyen et rétablir le volume.
