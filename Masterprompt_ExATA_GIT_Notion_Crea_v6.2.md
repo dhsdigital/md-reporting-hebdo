@@ -1,5 +1,5 @@
 # PROMPT DUST — Agent Rapport Hebdomadaire Meta Ads
-# Version 6.2 — Push automatique sur GitHub
+# Version 6.3 — Push automatique sur GitHub
 
 ---
 
@@ -147,29 +147,42 @@ Calcule le CPA moyen = spend total top 15 / achats totaux top 15.
 
 ⚠️ **Règle impérative : toujours tenter le Niveau 1 en premier et de manière explicite sur chaque ad_id avant de conclure à une erreur de permissions et passer au niveau suivant. Ne jamais supposer une erreur sans l'avoir vérifiée.**
 
-Pour chaque ad du top 15 :
+Pour chaque ad du top 15, exécute le pipeline complet suivant :
 
-Niveau 1 — API Meta via GoMarble : utilise `facebook_analyze_ad_creative_by_id_or_url` avec l'`ad_id`.
-→ Tester sur chaque ad_id individuellement — ne pas supposer une erreur de permissions sans avoir effectué l'appel.
-→ Si succès : récupère `asset_details.thumbnailUrl` en priorité (JPG direct, même pour les vidéos), sinon `asset_details.assetUrl`.
-→ Si `assetType = video` et pas de `thumbnailUrl` disponible : télécharger le MP4 et extraire une frame à t=1s avec ffmpeg :
-`ffmpeg -y -ss 00:00:01 -i video.mp4 -vframes 1 -q:v 2 -update 1 -vf "scale=400:400:force_original_aspect_ratio=increase,crop=400:400" thumb.jpg`
-→ Si `assetType = image` : télécharger directement avec curl
-→ Si l'appel retourne une vraie erreur de permissions (ex: "missing permissions") : passer au Niveau 2. Un timeout n'est pas une erreur de permissions — retenter une fois avant de passer au niveau suivant.
+**Niveau 1 — API Meta via GoMarble**
 
-Niveau 2 — Base Foreplay/GoMarble (ads whitelisting sous pages externes) :
-A) Chercher le `brand_id` via `ads_library_search_brands` (domaine du site)
-B) Si aucun brand_id trouvé par domaine, tenter avec le nom de la marque
-C) Récupérer les ads via `ads_library_get_ads_by_brand_id` (sans filtre live ni date, `limit=100`)
-D) Matcher chaque créa manquante par similarité de transcription / description / headline — correspondance de contenu forte obligatoire
-E) Pour les vidéos matchées : télécharger le MP4, extraire une frame à t=1s avec ffmpeg. Pour les images : télécharger avec curl.
+1. Appelle `facebook_analyze_ad_creative_by_id_or_url` avec l'`ad_id` pour chaque ad individuellement.
+2. Si succès : récupère `asset_details.thumbnailUrl` en priorité (JPG direct, même pour les vidéos). Si `thumbnailUrl` absent, utilise `asset_details.assetUrl`.
+3. **Télécharge l'image** avec curl dans un répertoire de travail temporaire (`/home/claude/thumbs/`) :
+   `curl -s -o /home/claude/thumbs/raw_N.jpg "{thumbnailUrl}"`
+4. **Compresse et recadre** avec ffmpeg en 400×400 :
+   `ffmpeg -y -i /home/claude/thumbs/raw_N.jpg -q:v 4 -vf "scale=400:400:force_original_aspect_ratio=increase,crop=400:400" /home/claude/thumbs/thumb_N.jpg 2>/dev/null`
+   Si l'asset est une vidéo MP4 sans thumbnailUrl : extraire une frame à t=1s :
+   `ffmpeg -y -ss 00:00:01 -i video.mp4 -vframes 1 -q:v 2 -update 1 -vf "scale=400:400:force_original_aspect_ratio=increase,crop=400:400" /home/claude/thumbs/thumb_N.jpg`
+5. **Encode en base64** avec Python :
+   ```python
+   import base64
+   with open("/home/claude/thumbs/thumb_N.jpg", "rb") as f:
+       b64 = base64.b64encode(f.read()).decode()
+   # Injecter dans le HTML : <img src="data:image/jpeg;base64,{b64}">
+   ```
+6. Si l'appel retourne une vraie erreur de permissions (ex: "missing permissions") : passer au Niveau 2. Un timeout n'est pas une erreur de permissions — retenter une fois avant de passer au niveau suivant.
 
-Niveau 3 — Si aucune thumbnail trouvable après avoir épuisé les niveaux 1 et 2 : afficher un placeholder SVG sobre avec nom court, type (IMAGE / VIDÉO), mention "Whitelisting · page externe". Ne jamais substituer par une autre créa.
+**Niveau 2 — Base Foreplay/GoMarble (ads whitelisting sous pages externes)**
 
-Règles thumbnails impératives :
-- Les URLs `assets-organizer-cdn.gomarble.ai` retournées par le Niveau 1 peuvent être utilisées directement dans le HTML via `<img src="...">` — elles sont stables et accessibles en ligne. L'encodage base64 n'est pas obligatoire si l'URL est disponible et fonctionnelle.
-- Si le fichier doit fonctionner 100% hors-ligne : encoder les images en base64 et les embarquer dans le HTML. Compresser les images > 200KB avant encodage : `ffmpeg -y -i input.jpg -q:v 3 -vf "scale=600:-1" output.jpg`
-- Ne jamais inclure d'URLs externes si le mode hors-ligne est requis.
+A) Chercher le `brand_id` via `ads_library_search_brands` (domaine du site). Si non trouvé, tenter avec le nom de la marque.
+B) Récupérer les ads via `ads_library_get_ads_by_brand_id` (sans filtre live ni date, `limit=100`)
+C) Matcher chaque créa manquante par similarité de transcription / description / headline — correspondance de contenu forte obligatoire
+D) Pour les assets matchés : appliquer le même pipeline curl → ffmpeg → base64 qu'au Niveau 1.
+
+**Niveau 3 — Placeholder**
+
+Si aucune thumbnail trouvable après avoir épuisé les niveaux 1 et 2 : afficher un placeholder SVG sobre avec nom court, type (IMAGE / VIDÉO), mention "Whitelisting · page externe". Ne jamais substituer par une autre créa.
+
+**Règles d'assemblage du HTML :**
+- Toutes les images sont encodées en base64 et embarquées dans le HTML via `<img src="data:image/jpeg;base64,...">`
+- Jamais d'URLs externes dans le HTML final — le fichier doit s'ouvrir 100% hors-ligne dans tout navigateur
+- Générer le HTML via un script Python qui injecte les b64 dans le template au moment de l'écriture du fichier
 
 **Structure du fichier HTML**
 
