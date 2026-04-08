@@ -11,10 +11,10 @@
 > 
 > **KPIS cible Meta :** 
 > 
-> - ROAS : N/A (compte non e-commerce)
-> - CPA Réservation : cible non définie
+> - ROAS : [donnée non disponible — compte restaurant, KPI principal = CPA réservation]
+> - CPA réservation cible : [donnée non disponible]
 > 
-> **Status :** 🔴 Performance en dessous des objectifs - Action Requise
+> **Status :** 🟡 Performance Mitigée - Action Requise
 > 
 
 ---
@@ -35,25 +35,25 @@
 
 ### **PERFORMANCE GLOBALE**
 
-Le compte Huggy's Company enregistre une semaine S0 en retrait par rapport à S-1 : le volume de réservations recule de -8,2% (236 vs 257) pour un budget lui aussi en baisse de -3,1%, ce qui se traduit par une légère dégradation du CPA réservation (3,38€ vs 3,21€, +5,3%). La couverture se contracte sensiblement (-14,3%) pendant que la fréquence monte (+8,9%), signe que les créatifs en place commencent à saturer les audiences locales.
+Le compte Huggy's enregistre un recul des réservations de -8,17% (236 vs 257) malgré un budget légèrement inférieur (-3,07%), avec un CPA réservation en hausse à 3,38€ contre 3,21€ la semaine précédente. La couverture recule significativement (-14,30%), la fréquence monte (+9,08%) et le CPM augmente (+3,75%), signaux d'une saturation progressive sur les zones ciblées.
 
-- **CPA Réservation :** 3,38€ vs 3,21€ ⚠️ **+5,3% au-dessus de S-1**
-- **Volume de réservations :** 236 vs 257 🔴 **-8,2%**
+- **CPA réservation :** 3,38€ vs 3,21€ S-1 ⚠️ **+5,45% au-dessus**
+- **Volume réservations :** 236 vs 257 S-1 🔴 **-8,17%**
 
 ### **Points Marquants**
 
 ```
 
 🚀 SIGNAUX POSITIFS
-├── CTR link clicks stable : +3,5% (0,234% vs 0,226%)
-├── CPC stable : 0,82€ vs 0,82€ (+0,0%)
-└── Vues de page en hausse : +5,9% (742 vs 700)
+├── Hausse des LPV : +6,00% (742 vs 700)
+├── Budget maîtrisé : -3,07% de dépense (798,49€ vs 823,77€)
+└── CTR stable : 0,23% (maintien de l'efficacité créative)
 
 ⚠️ SIGNAUX D'ALERTE
-├── Réservations en baisse : -8,2% (236 vs 257)
-├── Couverture en recul : -14,3% (126 180 vs 147 237)
-├── Fréquence en hausse : +8,9% (3,30 vs 3,03)
-└── Inflation CPM : +3,8% (1,92€ vs 1,85€)
+├── Baisse des réservations : -8,17% (236 vs 257)
+├── Recul de la couverture : -14,30% (126 180 vs 147 237)
+├── Inflation CPM : +3,75% (1,92€ vs 1,85€)
+└── Hausse fréquence : +9,08% (3,30 vs 3,03)
 ```
 
 - 💡 Détails des metrics :
@@ -62,129 +62,128 @@ Le compte Huggy's Company enregistre une semaine S0 en retrait par rapport à S-
     
     | Métrique | Cette Semaine | Semaine Précédente | Évolution |
     | --- | --- | --- | --- |
-    | Budget Dépensé | 798,49€ | 823,77€ | 🔴⬇️ -3,1% |
-    | Impressions | 416 591 | 445 950 | 🔴⬇️ -6,6% |
-    | Couverture | 126 180 | 147 237 | 🔴⬇️ -14,3% |
-    | Fréquence | 3,30 | 3,03 | 🔴⬆️ +8,9% |
-    | CTR (Link Clicks) | 0,234% | 0,226% | 🟢⬆️ +3,5% |
-    | CPM | 1,92€ | 1,85€ | 🔴⬆️ +3,8% |
-    | CPC | 0,82€ | 0,82€ | 🟢⬆️ +0,0% |
+    | Budget Dépensé | 798,49€ | 823,77€ | 🟢⬇️ -3,07% |
+    | Impressions | 416 591 | 445 950 | 🔴⬇️ -6,60% |
+    | Couverture | 126 180 | 147 237 | 🔴⬇️ -14,30% |
+    | Fréquence | 3,30 | 3,03 | 🔴⬆️ +9,08% |
+    | CTR | 0,23% | 0,23% | — 0,00% |
+    | CPM | 1,92€ | 1,85€ | 🔴⬆️ +3,75% |
+    | CPC | 0,21€ | 0,20€ | 🔴⬆️ +3,93% |
     
     ### Engagement
     
     | Métrique | Cette Semaine | Semaine Précédente | Évolution |
     | --- | --- | --- | --- |
-    | Clics sur Lien | 974 | 1 007 | 🔴⬇️ -3,3% |
-    | Vues Page Destination | 742 | 700 | 🟢⬆️ +6,0% |
+    | Clics sur Lien | 974 | 1 007 | 🔴⬇️ -3,28% |
+    | Vues Page Destination | 742 | 700 | 🟢⬆️ +6,00% |
     
     ### Conversions
     
     | Métrique | Cette Semaine | Semaine Précédente | Évolution |
     | --- | --- | --- | --- |
-    | Volume de Réservations | 236 | 257 | 🔴⬇️ -8,2% |
-    | CPA Réservation | 3,38€ | 3,21€ | 🔴⬆️ +5,3% |
-    | Taux de conv. (rés./LPV) | 31,8% | 36,7% | 🔴⬇️ -13,3% |
+    | Volume Réservations | 236 | 257 | 🔴⬇️ -8,17% |
+    | Contacts Website | 9 | 9 | — 0,00% |
+    | CPA Réservation | 3,38€ | 3,21€ | 🔴⬆️ +5,45% |
 
 ---
 
 ## 2.1 ANALYSE
 
-### **PROBLÈME IDENTIFIÉ : SATURATION LOCALE DES AUDIENCES**
+### **PROBLÈME IDENTIFIÉ : SATURATION DES AUDIENCES LOCALES**
 
 ```
 📉 CAUSES RACINES
-├── Budget en légère baisse (-3,1%)
-├── Couverture en fort recul (-14,3%) → saturation des bassins locaux
-├── Fréquence en hausse (+8,9%) → Meta re-diffuse aux mêmes personnes
-└── CPM en hausse (+3,8%) → coût de diffusion qui grimpe mécaniquement
+├── Budget légèrement en retrait (-3,07%)
+├── Épuisement des audiences locales (-14,30% couverture)
+├── Pénalisation algorithmique (+3,75% CPM)
+└── Saturation en progression (+9,08% fréquence)
 
 💼 IMPACT BUSINESS
-├── Moins de personnes touchées : -14,3% de couverture
-├── Taux de conversion en baisse : 31,8% vs 36,7% (-13,3%)
-└── Volume de réservations en recul : -8,2% (236 vs 257)
+├── Perte de portée : -14,30% de personnes touchées
+├── Inflation des coûts : +3,75% sur les CPM
+└── Baisse des réservations : -8,17% à budget quasi-stable
 
 🎯 SOLUTION
-└── Renouveler les créatifs sur les campagnes à fréquence > 4 (Sprimont en priorité)
+└── Renouvellement créatif sur les zones les plus saturées + ajustement des audiences
 ```
 
 - 💡 Analyse détaillée
     
-    À budget légèrement réduit (-3,1%), on génère -6,6% d'impressions et on touche -14,3% de personnes en moins. Ce décrochage entre impressions (-6,6%) et couverture (-14,3%) est révélateur : Meta dépense le même CPM (en hausse de +3,8%) pour atteindre des audiences déjà exposées, ce qui fait mécaniquement monter la fréquence à 3,30 (+8,9%).
+    À budget en léger recul de -3,07% (798,49€ vs 823,77€), on génère -6,60% d'impressions et on touche -14,30% de personnes en moins. La fréquence remonte mécaniquement à 3,30 (+9,08%), Meta montrant de plus en plus les mêmes annonces aux mêmes personnes, ce qui explique la hausse des CPM (+3,75%) et du CPC (+3,93%).
     
-    Le CTR link clicks progresse légèrement (+3,5%, de 0,226% à 0,234%), ce qui montre que les créatifs génèrent toujours de l'engagement chez les personnes qui les voient. Les vues de page destination augmentent même de +6,0% (742 vs 700) malgré moins de clics totaux, signe d'une meilleure qualification du trafic renvoyé sur la page.
+    Le CTR reste stable à 0,23%, ce qui indique que les créatifs maintiennent leur capacité à capter l'attention chez les personnes nouvellement touchées. Paradoxalement, les vues de page de destination progressent de +6,00% (742 vs 700), ce qui témoigne d'une meilleure qualification du trafic généré.
     
-    Le problème se situe en bas de funnel : le taux de conversion réservation sur vues de page passe de 36,7% à 31,8% (-13,3%). À volume de trafic qualifié quasi-stable, on génère moins de réservations. Cela peut indiquer une lassitude des audiences locales vis-à-vis du contenu proposé, ou une saturation des personnes déjà converties dans ces zones géographiques restreintes.
+    Cependant, au niveau des conversions, le volume de réservations recule de -8,17% (236 vs 257), entraînant une hausse du CPA réservation à 3,38€ (+5,45%). Ce découplage entre LPV en hausse et réservations en baisse suggère une légère dégradation du taux de conversion sur les pages de destination, potentiellement liée à une audience de moins en moins qualifiée à mesure que la fréquence augmente.
     
-    **Problème principal :** Saturation des audiences locales dans les zones géographiques ciblées — les bassins d'audience sont limités et les campagnes tournent depuis décembre 2024, ce qui épuise progressivement les nouvelles personnes à atteindre.
-    
+    **Problème principal :** Saturation progressive des audiences locales ciblées, particulièrement visible sur les zones avec la fréquence la plus haute (Sprimont à 4,27), réduisant la portée et la qualité du trafic généré.
 
 ---
 
 ## 📋 2.2 Performance par campagnes
 
-| **Campagne** | **Dépenses** | **CTR** | **Réservations** | **CPA Rés.** | **Fréquence** | **LPV** | **Tx conv. rés./LPV** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **Namur - Décembre 2024** | 138,61€ (-0,1%) | 0,228% (+47,9%) | 29 (-32,6%) | 4,78€ (+51,9%) | 2,48 (-6,3%) | 116 (+10,5%) | 25,0% (-39,0%) |
-| **Bruxelles - Décembre** | 138,52€ (-0,2%) | 0,287% (-71,8%) | 29 (-14,7%) | 4,78€ (-36,2%) | 2,01 (+8,3%) | 165 (+16,2%) | 17,6% (-26,5%) |
-| **Soumagne - Décembre 2024** | 104,94€ (+2,3%) | 0,197% (-77,7%) | 45 (+40,6%) | 2,33€ (-31,9%) | 3,22 (+1,4%) | 83 (-23,1%) | 54,2% (+83,8%) |
-| **Sprimont - Décembre** | 104,84€ (+1,5%) | 0,176% (-51,2%) | 21 (-30,0%) | 4,99€ (+44,9%) | 4,27 (+4,0%) | 72 (+5,9%) | 29,2% (-34,0%) |
-| **Charleroi Centre - Décembre 2024** | 104,10€ (-0,0%) | 0,219% (+14,4%) | 25 (+13,6%) | 4,16€ (-12,1%) | 2,24 (+3,4%) | 75 (+5,6%) | 33,3% (+7,6%) |
-| **Charleroi - Décembre 2024** | 104,00€ (+0,5%) | 0,220% (+2,1%) | 29 (-12,1%) | 3,59€ (+14,5%) | 2,54 (+7,3%) | 107 (+18,9%) | 27,1% (-26,1%) |
-| **Liège centre - Décembre 2024** | 103,48€ (-0,5%) | 0,313% (+7,5%) | 58 (-4,9%) | 1,78€ (+2,7%) | 2,54 (+6,5%) | 124 (+6,9%) | 46,8% (-11,0%) |
+| **Campagne** | **Dépenses** | **CTR** | **Réservations** | **CPA Rés.** | **Fréquence** | **Couverture** |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Namur** | 138,61€ | 0,80% | 29 | 4,78€ | 2,48 | 29 963 |
+| **Bruxelles** | 138,52€ | 1,19% | 29 | 4,78€ | 2,01 | 31 920 |
+| **Soumagne** | 104,94€ | 0,93% | 45 | 2,33€ | 3,22 | 17 654 |
+| **Sprimont** | 104,84€ | 0,38% | 21 | 4,99€ | 4,27 | 13 541 |
+| **Charleroi Centre** | 104,10€ | 0,86% | 25 | 4,16€ | 2,24 | 23 397 |
+| **Charleroi** | 104,00€ | 0,92% | 29 | 3,59€ | 2,54 | 23 710 |
+| **Liège centre** | 103,48€ | 1,51% | 58 | 1,78€ | 2,54 | 20 094 |
 
 ## Campagnes Hors KPIs Cibles
 
 **Campagne Boost - Sprimont - Décembre**
 
-- **CPA Réservation :** 4,99€ (S-1 : 3,44€) ❌ **+44,9% de dégradation**
-- **Réservations :** 21 (S-1 : 30) ❌ **-30,0%**
-- **Dépenses :** 104,84€ | **Fréquence :** 4,27
+- **CPA réservation :** 4,99€ | **Fréquence :** 4,27 (la plus élevée du compte)
+- **Dépenses :** 104,84€ | **Réservations :** 21
 
 ```
 📉 CAUSES RACINES
-├── Fréquence la plus élevée du compte : 4,27 (+4,0%)
-├── CTR link clicks en baisse : 0,176% vs 0,361% S-1 (-51,2%)
-└── Taux de conversion réservation en chute : 29,2% vs 44,2% S-1 (-34,0%)
+├── Saturation avancée : fréquence à 4,27 (+3,96% vs S-1)
+├── Couverture restreinte : 13 541 personnes (-0,10% vs S-1)
+└── CTR faible : 0,38% (le plus bas du compte)
 
 💼 IMPACT BUSINESS
-├── Audience locale épuisée : fréquence dépasse le seuil critique de 4,0
-├── Engagement créatif en net recul : -51,2% sur le CTR link clicks
-└── Volume de réservations en baisse de 9 unités par rapport à S-1
+├── Zone quasi-épuisée : audience très limitée pour cette localisation
+├── Efficacité créative dégradée : CTR 0,38% vs 1,19% à Bruxelles
+└── Coût réservation le plus élevé du compte : 4,99€
 
 🎯 SOLUTION
-└── Rafraîchissement créatif prioritaire sur cette zone + envisager une pause de 7-10j
+└── Renouvellement créatif prioritaire sur Sprimont + élargissement zone géographique
 ```
 
 - 💡 Analyse détaillée
     
-    La campagne Sprimont affiche la fréquence la plus élevée du compte à 4,27 (contre 4,11 en S-1). À budget quasi-stable (+1,5%), la couverture reste très faible (13 541 personnes) — c'est le bassin local le plus étroit du portefeuille. Le CTR link clicks s'effondre de 0,361% à 0,176% (-51,2%), ce qui indique que les créatifs ne déclenchent plus l'intérêt chez une audience qui les a déjà vus en moyenne plus de 4 fois. Les vues de page ne progressent que marginalement (+5,9%, 72 vs 68), mais le taux de conversion réservation chute de 44,2% à 29,2% (-34,0%). La combinaison d'un engagement créatif en recul et d'un funnel bas qui se dégrade pointe vers une fatigue créative avancée dans cette zone. **Problème principal :** saturation d'une audience locale restreinte — le rafraîchissement créatif est urgent avant de poursuivre la diffusion.
+    La campagne Sprimont présente la fréquence la plus haute du compte (4,27), avec une couverture qui stagne à 13 541 personnes — quasiment identique à S-1 (13 554). Meta n'arrive plus à trouver de nouvelles personnes à cibler dans cette zone, ce qui explique le CTR le plus faible du portefeuille à 0,38%. Malgré 104,84€ investis, seules 21 réservations sont générées, soit un CPA de 4,99€. Les créatifs actuels sont en bout de course sur cette audience locale restreinte.
     
+    **Problème principal :** Zone géographique trop étroite avec audience épuisée — la fréquence à 4,27 indique que chaque personne ciblée a vu les annonces en moyenne 4 fois, plafond au-delà duquel la performance se dégrade structurellement.
 
 **Campagne Boost - Namur - Décembre 2024**
 
-- **CPA Réservation :** 4,78€ (S-1 : 3,15€) ❌ **+51,9% de dégradation**
-- **Réservations :** 29 (S-1 : 43) ❌ **-32,6%**
-- **Dépenses :** 138,61€ | **Fréquence :** 2,48
+- **CPA réservation :** 4,78€ | **Fréquence :** 2,48
+- **Dépenses :** 138,61€ | **Réservations :** 29
 
 ```
 📉 CAUSES RACINES
-├── Couverture en légère hausse (+2,7%) mais réservations en fort recul (-32,6%)
-├── Taux de conversion réservation effondré : 25,0% vs 37,0% S-1 (-32,4%)
-└── Clics vers page en hausse (+11,2%) mais conversions en baisse → problème funnel bas
+├── CTR insuffisant : 0,80% pour le budget le plus élevé du compte
+├── Couverture en légère hausse (+2,72%) — audience disponible mais non convertie
+└── Réservations stables mais CPA élevé pour le niveau de dépense
 
 💼 IMPACT BUSINESS
-├── 14 réservations perdues par rapport à S-1 à budget constant
-├── CPA en dégradation de +1,63€ par réservation
-└── Trafic envoyé sur la page mais qui ne convertit pas
+├── Budget le plus élevé du compte (138,61€) pour un CPA parmi les moins performants
+├── Ratio dépense/réservation défavorable vs Liège (1,78€) ou Soumagne (2,33€)
+└── Potentiel d'amélioration sur l'angle créatif
 
 🎯 SOLUTION
-└── Vérifier la page de destination / offre visible sur la zone Namur + tester un nouveau format créatif
+└── Tester des formats avec accroche plus directe sur la réservation (urgence, événement)
 ```
 
 - 💡 Analyse détaillée
     
-    La campagne Namur présente un cas atypique : la couverture progresse légèrement (+2,7%), le CTR link clicks monte (+47,9%) et les vues de page augmentent (+10,5%, 116 vs 105). Le problème n'est donc pas au niveau de la diffusion ni de l'engagement créatif. La rupture est dans le funnel bas : le taux de conversion réservation sur vues de page passe de 37,0% à 25,0% (-32,4%). Le trafic arrive sur la page mais ne se convertit pas. Cela peut indiquer un problème de cohérence entre le message créatif et l'offre présentée sur la page, ou une évolution de disponibilité/tarification pour la zone Namur. **Problème principal :** déconnexion entre le message publicitaire et la page de destination — le créatif performe mais la conversion site ne suit pas.
+    Namur représente le budget le plus élevé du portefeuille (138,61€) mais génère seulement 29 réservations — soit le même nombre que Bruxelles pour un spend légèrement supérieur. La fréquence reste correcte à 2,48, la couverture progresse légèrement (+2,72%), mais le CTR de 0,80% reste parmi les plus faibles, indiquant que les créatifs actuels n'accrochent pas suffisamment sur cette zone. Le CPA de 4,78€ est le deuxième plus élevé du compte, à comparer avec le 1,78€ de Liège centre qui génère 2 fois plus de réservations pour un budget similaire.
     
+    **Problème principal :** Efficacité créative insuffisante sur Namur malgré une audience encore disponible — la fréquence n'est pas le problème, c'est l'accroche qui sous-performe.
 
 ---
 
@@ -196,4 +195,6 @@ Le compte Huggy's Company enregistre une semaine S0 en retrait par rapport à S-
 
 ## 🎯 Conclusion & next steps
 
-Le compte Huggy's Company enregistre 236 réservations sur la semaine pour 798,49€ dépensés, soit un CPA réservation de 3,38€ (+5,3% vs S-1). Le recul des performances s'explique principalement par une contraction de la couverture (-14,3%) et une montée de la fréquence (+8,9%) sur des bassins locaux à audience limitée — phénomène structurel amplifié par des campagnes actives depuis décembre 2024 sans renouvellement créatif documenté. Deux campagnes nécessitent une attention immédiate : Sprimont (fréquence 4,27, CTR -51,2%, réservations -30%) pour un rafraîchissement créatif urgent, et Namur (réservations -32,6% malgré un bon CTR) pour une investigation du funnel bas. La campagne Soumagne (+40,6% de réservations, CPA à 2,33€) et Liège centre (CPA à 1,78€) maintiennent des performances solides et peuvent servir de référence créative pour les zones en difficulté.
+Le compte Huggy's enregistre 236 réservations pour 798,49€ investis (CPA : 3,38€), en recul de -8,17% vs S-1. La campagne Liège centre se distingue avec 58 réservations à 1,78€ CPA, soit la meilleure performance du portefeuille. Le problème principal est une saturation progressive des audiences locales, particulièrement sur Sprimont (fréquence 4,27) et dans une moindre mesure sur Soumagne (3,22). La couverture globale recule de -14,30%, signal clair d'épuisement des bassins d'audience actuels. Actions prioritaires : renouvellement créatif sur Sprimont et Namur, et analyse de l'opportunité d'élargissement géographique sur les zones les plus contraintes.
+
+---
